@@ -1,0 +1,137 @@
+
+
+
+.i{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.i-left{
+     flex:1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i-right{
+    flex:1;
+}
+.i-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    color: rgb(255, 254, 208);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(91, 192, 116);
+    border-color: rgb(255, 254, 208);
+    
+    
+}
+
+.i-intro{
+    font-style: 30px;
+    font-weight: 100;
+}
+.i-name{
+    font-style: 100px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+
+}
+.i-title {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .i-title-wrapper {
+    height: 100%;
+  }
+
+
+  
+
+  .i-title-item {
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #131813;
+    display: flex;
+    align-items: center;
+  }
+  
+  .i-scroll {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+  }
+
+.i-right{
+    display: flex;
+    flex-direction: column;
+    flex: start;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.summary-name{
+    
+    color: rgb(36, 35, 35);
+    right: 60px;
+    opacity: 30%;
+}
+
+
+  .i-right-content{
+      font-style: 10%;
+      font-weight: 200;
+     color: cornsilk;
+      width: 70%;
+      align-items: center;
+      text-align: justify;
+      text-justify: inter-word;
+      
+  }
+  
+
+@media screen and (max-width: 609px) {
+    .i {
+      flex-direction: column;padding: 10px;
+     
+    }
+}
+@media screen and (max-width: 480px) {
+  .i-right-content{
+    font-size: 10px;
+   
+  }
+}
+
+@media screen and (max-width: 926px) {
+  .i-right-content{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+   
+  }
+}
+
+.button-ico{
+  color: azure;
+  font-size: 20px;
+  background: linear-gradient(45deg, rgb(134, 230, 121), rgb(44, 170, 139));
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 20px 0px;
+  transition: background-color 1s;
+}
+.button-ico:hover{
+  color: #131813;
+}
+
+
+
+    
